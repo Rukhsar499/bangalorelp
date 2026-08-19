@@ -512,7 +512,7 @@ body {
 }
         /* --- RESPONSIVE STYLES --- */
         @media (max-width: 992px) {
-            .header, .header.scrolled { padding: 16px 24px; }
+            .header, .header.scrolled { padding: 10px 24px; }
             .hero { padding: 0 24px; }
             .hero-title { font-size: 42px; }
             .stats-container { flex-direction: column; gap: 16px; }
@@ -1846,8 +1846,8 @@ body {
         /* --- RESPONSIVE LAYOUT --- */
         @media (max-width: 992px) {
             .stats-container {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 24px;
+                grid-template-columns: repeat(2, 2fr);
+                gap: 0px;
             }
 
             .stat-card:not(:last-child)::after {
@@ -1865,8 +1865,11 @@ body {
 
             .features-grid {
                 grid-template-columns: 1fr;
-                gap: 20px;
+                gap: 0px;
             }
+.faq-title, .testimonial-title, .styles-title, .section-title {
+   font-size: 30px;
+}
             .section-title { font-size: 2.25rem; }
             .comparison-card { height: 360px; }
             .cta-box {
