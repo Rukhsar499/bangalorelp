@@ -227,10 +227,8 @@ body {
             display: flex;
             gap: 32px;
             margin-bottom: 40px;
-            padding-bottom: 32px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
         }
-
+        
         .stat-item {
             display: flex;
             align-items: center;
@@ -528,7 +526,7 @@ body {
             margin: 0 auto;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            padding: 0 24px;
+            
         }
 
         .stat-card {
@@ -563,7 +561,11 @@ body {
             transition: var(--transition-smooth);
             flex-shrink: 0;
         }
-
+        .hgf{
+            font-size: 20px !important;
+            grid-template-columns: repeat(3, 1fr);
+            padding-bottom: 32px;
+        }
         .stat-icon-wrapper svg {
             width: 28px;
             height: 28px;
