@@ -47,11 +47,11 @@ body {
         /* Sticky State triggered via JS */
         .header.scrolled {
             padding: 10px;
-            background: rgba(255, 255, 255, 0.95);
+            background: #fff;
             backdrop-filter: blur(12px);
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
         }
-
+        
         /* Header Layout Specifics: Logo on Left, Contacts on Right */
         .logo {
             text-decoration: none;
@@ -60,6 +60,7 @@ body {
         }
 .logo img{
     width:100px;
+    background-color:#fff;
 }
         .logo-title {
             font-family: var(--font-serif);
