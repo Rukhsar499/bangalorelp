@@ -59,7 +59,7 @@ $(document).ready(function () {
 $(window).on('load', function() {
     setTimeout(()=>{
         $('#exampleModal').modal('show');
-    },10000)
+    },5000)
     
 });
 
