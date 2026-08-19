@@ -377,8 +377,8 @@ body {
 }
 .styles-title {
     font-family: var(--font-serif);
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 700;
     color: #1f1f1f;
     letter-spacing: -0.5px;
 }
@@ -400,6 +400,12 @@ body {
     opacity: 0;
     z-index: 2;
     transition: opacity 0.4s ease;
+}
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1), filter 0.5s ease;
 }
 .hover-badge {
     position: absolute;
@@ -752,7 +758,6 @@ body {
 
         .comparison-section {
             padding-top: 50px;
-            background: linear-gradient(180deg, #ffffff 0%, #faf9f6 100%);
         }
 
         /* --- TYPOGRAPHY & HEADINGS --- */
