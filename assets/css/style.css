@@ -1782,8 +1782,8 @@ body {
         /* Footer Bottom Bar */
         .footer-bottom {
             border-top: 1px solid rgba(255, 255, 255, 0.08);
-            margin-top: 60px;
-            padding-top: 24px;
+            margin-top: 20px;
+            padding-top: 12px;
             text-align: center;
             font-size: 0.775rem;
             color: #777777;
