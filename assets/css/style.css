@@ -172,15 +172,23 @@ body {
 
         /* Dark Gradient Overlay from Left Side */
         .hero-overlay {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(90deg, 
-                rgba(12, 12, 12, 0.92) 0%, 
-                rgba(12, 12, 12, 0.75) 45%, 
-                rgba(12, 12, 12, 0.2) 80%, 
-                rgba(12, 12, 12, 0) 100%);
-            z-index: 1;
-        }
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        rgba(12, 12, 12, 0.92) 0%,
+        rgba(12, 12, 12, 0.75) 45%,
+        rgba(12, 12, 12, 0.2) 80%,
+        rgba(12, 12, 12, 0) 100%
+    );
+
+    z-index: 1;
+    pointer-events: none;
+}
 
         .hero-content {
             position: relative;
@@ -1051,6 +1059,9 @@ body {
 
         .style-item:hover .style-title {
             color: var(--color-gold);
+        }
+        .modal-content{
+            position: relative;
         }
 .btn-close{
     position: absolute;
