@@ -207,19 +207,12 @@ body {
             color: var(--color-gold);
             margin-bottom: 20px;
             position: relative;
-            padding-left: 30px;
+            
         }
-
-        .tagline::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 50%;
-            width: 20px;
-            height: 1px;
-            background-color: var(--color-gold);
-        }
-
+::placeholder{
+    color:#000;
+}
+        
         .hero-title {
             font-family: var(--font-serif);
             font-size: 64px;
