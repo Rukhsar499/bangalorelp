@@ -166,8 +166,8 @@ body {
             min-height: 90vh;
             display: flex;
             align-items: center;
-            padding: 0 60px;
-            background: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2000&q=85') no-repeat center center/cover;
+            padding: 120px 60px;
+            background: url('../img/banner.webp') no-repeat center center/cover;
         }
 
         /* Dark Gradient Overlay from Left Side */
